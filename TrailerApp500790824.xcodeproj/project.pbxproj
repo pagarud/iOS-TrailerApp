@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		522A476DE77EF590FE36546B /* Pods_TrailerApp500790824.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD29E1410D8E168396839EF /* Pods_TrailerApp500790824.framework */; };
 		95236AE02260E1BF00E9C269 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95236ADF2260E1BF00E9C269 /* AppDelegate.swift */; };
 		95236AE22260E1BF00E9C269 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95236AE12260E1BF00E9C269 /* ViewController.swift */; };
 		95236AE52260E1BF00E9C269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95236AE32260E1BF00E9C269 /* Main.storyboard */; };
 		95236AE72260E1C000E9C269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95236AE62260E1C000E9C269 /* Assets.xcassets */; };
 		95236AEA2260E1C000E9C269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95236AE82260E1C000E9C269 /* LaunchScreen.storyboard */; };
+		95236AF62260E47500E9C269 /* TrailerTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95236AF52260E47500E9C269 /* TrailerTableCell.swift */; };
+		95236AFA2260E51F00E9C269 /* Trailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95236AF92260E51F00E9C269 /* Trailer.swift */; };
+		95236AFC2260ECD400E9C269 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95236AFB2260ECD400E9C269 /* Localizable.strings */; };
+		95236AFE2260F9CA00E9C269 /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95236AFD2260F9CA00E9C269 /* SpinnerViewController.swift */; };
+		95BC08E5226249800082A3F7 /* TrailerTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95BC08E4226249800082A3F7 /* TrailerTableCell.xib */; };
+		95BC08E7226273520082A3F7 /* TrailerDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BC08E6226273520082A3F7 /* TrailerDetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DD29E1410D8E168396839EF /* Pods_TrailerApp500790824.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrailerApp500790824.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95236ADC2260E1BF00E9C269 /* TrailerApp500790824.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailerApp500790824.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95236ADF2260E1BF00E9C269 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95236AE12260E1BF00E9C269 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,14 @@
 		95236AE62260E1C000E9C269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95236AE92260E1C000E9C269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95236AEB2260E1C000E9C269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95236AF52260E47500E9C269 /* TrailerTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerTableCell.swift; sourceTree = "<group>"; };
+		95236AF92260E51F00E9C269 /* Trailer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trailer.swift; sourceTree = "<group>"; };
+		95236AFB2260ECD400E9C269 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		95236AFD2260F9CA00E9C269 /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
+		95BC08E4226249800082A3F7 /* TrailerTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrailerTableCell.xib; sourceTree = "<group>"; };
+		95BC08E6226273520082A3F7 /* TrailerDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerDetailController.swift; sourceTree = "<group>"; };
+		AE209224AEBB23BA0FB668BD /* Pods-TrailerApp500790824.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrailerApp500790824.release.xcconfig"; path = "Target Support Files/Pods-TrailerApp500790824/Pods-TrailerApp500790824.release.xcconfig"; sourceTree = "<group>"; };
+		F918B291D8725129F8C3DD8F /* Pods-TrailerApp500790824.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrailerApp500790824.debug.xcconfig"; path = "Target Support Files/Pods-TrailerApp500790824/Pods-TrailerApp500790824.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522A476DE77EF590FE36546B /* Pods_TrailerApp500790824.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93FDC039A2B94FAEE558213E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F918B291D8725129F8C3DD8F /* Pods-TrailerApp500790824.debug.xcconfig */,
+				AE209224AEBB23BA0FB668BD /* Pods-TrailerApp500790824.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		95236AD32260E1BF00E9C269 = {
 			isa = PBXGroup;
 			children = (
 				95236ADE2260E1BF00E9C269 /* TrailerApp500790824 */,
 				95236ADD2260E1BF00E9C269 /* Products */,
+				93FDC039A2B94FAEE558213E /* Pods */,
+				E666F9B5DF6C59CE415B76C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +82,60 @@
 		95236ADE2260E1BF00E9C269 /* TrailerApp500790824 */ = {
 			isa = PBXGroup;
 			children = (
+				95236AF32260E2D600E9C269 /* Controller */,
+				95236AF22260E2CE00E9C269 /* View */,
+				95236AF12260E2C600E9C269 /* Model */,
 				95236ADF2260E1BF00E9C269 /* AppDelegate.swift */,
-				95236AE12260E1BF00E9C269 /* ViewController.swift */,
-				95236AE32260E1BF00E9C269 /* Main.storyboard */,
 				95236AE62260E1C000E9C269 /* Assets.xcassets */,
-				95236AE82260E1C000E9C269 /* LaunchScreen.storyboard */,
 				95236AEB2260E1C000E9C269 /* Info.plist */,
+				95236AFB2260ECD400E9C269 /* Localizable.strings */,
 			);
 			path = TrailerApp500790824;
+			sourceTree = "<group>";
+		};
+		95236AF12260E2C600E9C269 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				95236AF92260E51F00E9C269 /* Trailer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		95236AF22260E2CE00E9C269 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				95236AE32260E1BF00E9C269 /* Main.storyboard */,
+				95236AE82260E1C000E9C269 /* LaunchScreen.storyboard */,
+				95236AF42260E45E00E9C269 /* TrailerTableCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		95236AF32260E2D600E9C269 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				95236AE12260E1BF00E9C269 /* ViewController.swift */,
+				95236AFD2260F9CA00E9C269 /* SpinnerViewController.swift */,
+				95BC08E6226273520082A3F7 /* TrailerDetailController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		95236AF42260E45E00E9C269 /* TrailerTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				95236AF52260E47500E9C269 /* TrailerTableCell.swift */,
+				95BC08E4226249800082A3F7 /* TrailerTableCell.xib */,
+			);
+			path = TrailerTableCell;
+			sourceTree = "<group>";
+		};
+		E666F9B5DF6C59CE415B76C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DD29E1410D8E168396839EF /* Pods_TrailerApp500790824.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95236AEE2260E1C000E9C269 /* Build configuration list for PBXNativeTarget "TrailerApp500790824" */;
 			buildPhases = (
+				32EFA55EA638916730483368 /* [CP] Check Pods Manifest.lock */,
 				95236AD82260E1BF00E9C269 /* Sources */,
 				95236AD92260E1BF00E9C269 /* Frameworks */,
 				95236ADA2260E1BF00E9C269 /* Resources */,
+				1B714FA90AD726A341FED81C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,6 +198,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95236AFC2260ECD400E9C269 /* Localizable.strings in Resources */,
+				95BC08E5226249800082A3F7 /* TrailerTableCell.xib in Resources */,
 				95236AEA2260E1C000E9C269 /* LaunchScreen.storyboard in Resources */,
 				95236AE72260E1C000E9C269 /* Assets.xcassets in Resources */,
 				95236AE52260E1BF00E9C269 /* Main.storyboard in Resources */,
@@ -130,13 +208,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B714FA90AD726A341FED81C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrailerApp500790824/Pods-TrailerApp500790824-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrailerApp500790824/Pods-TrailerApp500790824-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32EFA55EA638916730483368 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrailerApp500790824-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		95236AD82260E1BF00E9C269 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95BC08E7226273520082A3F7 /* TrailerDetailController.swift in Sources */,
 				95236AE22260E1BF00E9C269 /* ViewController.swift in Sources */,
 				95236AE02260E1BF00E9C269 /* AppDelegate.swift in Sources */,
+				95236AF62260E47500E9C269 /* TrailerTableCell.swift in Sources */,
+				95236AFA2260E51F00E9C269 /* Trailer.swift in Sources */,
+				95236AFE2260F9CA00E9C269 /* SpinnerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,10 +411,13 @@
 		};
 		95236AEF2260E1C000E9C269 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F918B291D8725129F8C3DD8F /* Pods-TrailerApp500790824.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9Z9ZDJ73S;
 				INFOPLIST_FILE = TrailerApp500790824/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,10 +431,13 @@
 		};
 		95236AF02260E1C000E9C269 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE209224AEBB23BA0FB668BD /* Pods-TrailerApp500790824.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9Z9ZDJ73S;
 				INFOPLIST_FILE = TrailerApp500790824/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

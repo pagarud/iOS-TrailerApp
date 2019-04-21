@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  TrailerApp500790824
+
+  Created by Dennis Pagarusha on 12/04/2019.
+  Copyright © 2019 Dennis Pagarusha. All rights reserved.
+*/
+
+/*
+  Format:
+
+  "<key>" = "<value>";
+*/
+"main_app_title" = "Trailers";
+"base_url" = "https://appstubs.triple-it.nl/trailers/";
+"Watch trailer" = "Watch trailer";
+"Genre" = "Genre: ";
+"bullet_dot" = "•";
