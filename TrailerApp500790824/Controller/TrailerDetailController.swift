@@ -96,13 +96,20 @@ class TrailerDetailController: UIViewController {
         if let wPPC = ac.popoverPresentationController {
             wPPC.sourceView = shareButton
         }
+        
+        shareButton.alpha = 0.3
+        
+        ac.completionWithItemsHandler = {(activityType: UIActivity.ActivityType?, completed: Bool, returnedItems: [Any]?, error: Error?) in
+            if !completed {
+                // User canceled
+                self.shareButton.alpha = 1
+                return
+            }
+            // User completed activity
+            self.shareButton.alpha = 1
+        }
+        
         present(ac, animated: true, completion: nil)
-        shareButton.alpha = 1
-    }
-    
-    
-    @IBAction func buttonTouchDown(_ sender: UIButton) {
-        shareButton.alpha = 0.5
     }
     
     /*
